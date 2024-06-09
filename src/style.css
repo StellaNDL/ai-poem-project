@@ -1,5 +1,5 @@
 body {
-    background-color: #F2DADF;
+    background-color: #C28485;
     font-family: Arial, Helvetica, sans-serif;
     color: #787B84;
 }
@@ -18,61 +18,76 @@ text-align: center;
 font-weight: 650;
 font-size: 30px;
 line-height: 1.5;
-color: #DB3F60;
+color: #AD396F;
 }
 
-form {
+.form-container {
     margin-bottom: 30px;
-    padding: 30px;
-    background-color: #FEFFF0;
+    padding: 15px 20px;
+    background: #FFCAC3;
     border-radius: 10px;
-    border-left: 3px solid #B6BCAF;
-    display: flex;
     box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-left: #787B84;
 }
+
+form {                  
+    display: flex;
+}
+
+.hint {
+    line-height: 1.5;
+    font-size: 12px;
+    opacity: 0.9;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
 
 .instructions {
     padding: 16px;
     border: 1px solid rgba(39, 33, 66, 0.3);
-    border: none;
     width: 90%;
     font-size: 18px;
     border-radius: 40px;
-    line-height: 20px;
+    line-height: 25px;
     color: #1B1B1B;
+    background: #FFCAC3;
 }
 
 .submit-button {
     margin-left: 10px;
-    background: #F2DADF;
-    color: rgba(39, 33, 66, 0.8);
-    border: none;
-    border-radius: 40px;
+    background: #FFCAC3;
+    border: 1px solid rgba(39, 33, 66, 0.3);
+    border-radius: 50px;
     padding: 14px 24px;
     width: 150px;
-    font-size: 18px;
+    font-size: 16px;
+    color: 1px solid gray;
+    cursor: pointer;
 }
 
 .poem {
     font-size: 16px;
-    background-color: #FEFFF0;
+    background-color: #FFCAC3;
     padding: 20px;
     line-height: 2;
-    border-left: 3px solid #B6BCAF;
-    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+    border-left: 3px solid grey;
     border-radius: 10px;
+    display: none;
+    box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
 
 .poem strong {
-    color: #DB3F60;
+    color: #AD396F;
 }
 
 a {
-    color: #DB3F60;
+    color: #AD396F;
 }
 
 footer {
     text-align: center;
     font-size: 13px;
     margin-top: 30px;
+    color: black;
 }
